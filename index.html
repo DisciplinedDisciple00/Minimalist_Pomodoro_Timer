@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Timer</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-white flex items-center justify-center h-screen bg-cover bg-center"
+      style="font-family: Poppins; background-image: url('bg.png');">
+
+<div class="bg-black/30 backdrop-blur-lg p-10 rounded-2xl
+            shadow-2xl text-center border border-white/10">
+
+    <h1 class="text-3xl font-bold mb-6">Pomodoro Timer</h1>
+
+    <div id="timer" class="text-6xl font-mono mb-6 tracking-wider">25:00</div>
+    <div class="space-x-4">
+
+        <button onclick="startTimer()"
+                class="bg-green-500 hover:bg-green-600 px-6 py-2 rounded-lg
+           transform hover:scale-110 hover:-translate-y-1 active:scale-95
+           transition duration-200 shadow-lg hover:shadow-xl">
+            Start
+        </button>
+
+        <button onclick="stopTimer()"
+                class="bg-yellow-500 hover:bg-yellow-600 px-6 py-2 rounded-lg
+           transform hover:scale-110 hover:-translate-y-1 active:scale-95
+           transition duration-200 shadow-lg hover:shadow-xl">
+            Pause
+        </button>
+
+        <button onclick="resetTimer()"
+                class="bg-red-500 hover:bg-red-600 px-6 py-2 rounded-lg
+           transform hover:scale-110 hover:-translate-y-1 active:scale-95
+           transition duration-200 shadow-lg hover:shadow-xl">
+            Reset
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
