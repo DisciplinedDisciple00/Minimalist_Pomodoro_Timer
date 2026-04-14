@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Pomodoro Timer</title>
 
@@ -15,6 +15,24 @@
             shadow-2xl text-center border border-white/10">
 
     <h1 class="text-3xl font-bold mb-6">Pomodoro Timer</h1>
+
+    <div class="flex justify-center space-x-4 mb-4">
+
+        <button onclick="setMode('work')"
+                class="bg-blue-500 hover:bg-blue-600 px-4 py-1 rounded-lg
+           transform hover:scale-110 hover:-translate-y-1 active:scale-95
+           transition duration-200 shadow-lg hover:shadow-xl">
+            Work
+        </button>
+
+        <button onclick="setMode('break')"
+                class="bg-purple-500 hover:bg-purple-600 px-4 py-1 rounded-lg
+           transform hover:scale-110 hover:-translate-y-1 active:scale-95
+           transition duration-200 shadow-lg hover:shadow-xl">
+            Break
+        </button>
+
+    </div>
 
     <div id="timer" class="text-6xl font-mono mb-6 tracking-wider">25:00</div>
     <div class="space-x-4">
