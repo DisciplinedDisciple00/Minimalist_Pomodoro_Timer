@@ -21,7 +21,7 @@ A simple and clean Pomodoro timer built using HTML, CSS (Tailwind), and JavaScri
 2. Open `index.html` in your browser
 
 ## 🌐 Live Demo
-[Add your deployed link here]
+https://disciplineddisciple00.github.io/Minimalist_Pomodoro_Timer
 
 ## 🎯 Purpose
 This project was built as a mini project to explore:
